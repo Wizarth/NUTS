@@ -29,6 +29,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_railuniversal1, cargo_type_in_veh){
 	IORE: 12;
 	OLSD: 12;
 	FICR: 12;
+	WDCH: 12;
 	RUBR: 12;
 	SCMT: 12;
 	SAND: 12;
@@ -1405,6 +1406,7 @@ switch (FEAT_TRAINS, SELF, railhopper1_wagon_switch, cargo_type_in_veh) {
 	IORE: railhopper1_random_ironore;
 	OLSD: railhopper1_random_oilseeds;
 	FICR: railhopper1_random_plantfibres;
+	WDCH: railhopper1_random_plantfibres;
 	RUBR: railhopper1_random_rubber;
 	SCMT: railhopper1_random_scrapmetal;
 	SAND: railhopper1_random_sand;
@@ -1622,6 +1624,7 @@ switch (FEAT_TRAINS, SELF, railuniversal1_wagon_switch_3, cargo_type_in_veh) {
 	IORE: railhopper1_wagon_switch;
 	OLSD: railhopper1_wagon_switch;
 	FICR: railhopper1_wagon_switch;
+	WDCH: railhopper1_wagon_switch;
 	RUBR: railhopper1_wagon_switch;
 	SCMT: railhopper1_wagon_switch;
 	SAND: railhopper1_wagon_switch;

@@ -1698,6 +1698,7 @@ switch (FEAT_TRAINS, SELF, maglevhopper_wagon_switch, cargo_type_in_veh) {
 	IORE: spritegroup_maglevhopper_ironore;
 	OLSD: spritegroup_maglevhopper_oilseeds;
 	FICR: spritegroup_maglevhopper_plantfibres;
+	WDCH: spritegroup_maglevhopper_plantfibres;
 	RUBR: spritegroup_maglevhopper_rubber;
 	SCMT: spritegroup_maglevhopper_scrapmetal;
 	SAND: spritegroup_maglevhopper_sand;
@@ -2288,6 +2289,7 @@ switch (FEAT_TRAINS, SELF, SLUGhopper_wagon_switch, cargo_type_in_veh) {
 	IORE: spritegroup_SLUGhopper_ironore;
 	OLSD: spritegroup_SLUGhopper_oilseeds;
 	FICR: spritegroup_SLUGhopper_plantfibres;
+	WDCH: spritegroup_SLUGhopper_plantfibres;
 	RUBR: spritegroup_SLUGhopper_rubber;
 	SCMT: spritegroup_SLUGhopper_scrapmetal;
 	SAND: spritegroup_SLUGhopper_sand;
@@ -2823,6 +2825,7 @@ switch (FEAT_TRAINS, SELF, maglevuniversal_wagon_switch, cargo_type_in_veh) {
 	ENSP: random_maglevflatbed_VEHI;
 	FERT: spritegroup_maglevhopper_fertiliser;
 	FICR: spritegroup_maglevhopper_plantfibres;
+	WDCH: spritegroup_maglevhopper_plantfibres;
 	FISH: spritegroup_maglevtanker_fish;
 	FMSP: spritegroup_maglevhopper_fertiliser;
 	FOOD: maglevflatbed_random_food;
@@ -2905,6 +2908,7 @@ switch (FEAT_TRAINS, SELF, SLUGuniversal_wagon_switch, cargo_type_in_veh) {
 	ENSP: random_SLUGflatbed_VEHI;
 	FERT: spritegroup_SLUGhopper_fertiliser;
 	FICR: spritegroup_SLUGhopper_plantfibres;
+	WDCH: spritegroup_SLUGhopper_plantfibres;
 	FISH: spritegroup_SLUGtanker_fish;
 	FMSP: spritegroup_SLUGhopper_fertiliser;
 	FOOD: SLUGflatbed_random_food;

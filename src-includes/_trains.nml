@@ -10506,6 +10506,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_CHAMELEONuniversal, cargo_type_in_veh)
 	IORE: 14;
 	OLSD: 14;
 	FICR: 14;
+	WDCH: 14;
 	RUBR: 14;
 	SCMT: 14;
 	SAND: 14;
@@ -11256,7 +11257,7 @@ item(FEAT_TRAINS, item_CHAMELEONflatbed, 506) { //ID506
         refittable_cargo_classes:     bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_REFRIGERATED, CC_OVERSIZED, CC_ARMOURED);
         non_refittable_cargo_classes: bitmask();
 
-		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, RCYC, WSTE, WOOL];
+		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL];
 		default_cargo_type:			  GOOD;
         loading_speed:                5;
         cost_factor:                  10;
@@ -12295,6 +12296,7 @@ switch (FEAT_TRAINS, SELF, CHAMELEONhopper_wagon_switch, cargo_type_in_veh) {
 	IORE: CHAMELEONhopper_ironore_random;
 	OLSD: CHAMELEONhopper_oilseeds_random;
 	FICR: CHAMELEONhopper_plantfibres_random;
+	WDCH: CHAMELEONhopper_plantfibres_random;
 	RUBR: CHAMELEONhopper_rubber_random;
 	SCMT: CHAMELEONhopper_scrapmetal_random;
 	SAND: CHAMELEONhopper_sand_random;
@@ -12706,6 +12708,7 @@ switch (FEAT_TRAINS, SELF, CHAMELEONuniversal_wagon_switch, cargo_type_in_veh) {
 	IORE: CHAMELEONhopper_ironore_random;
 	OLSD: CHAMELEONhopper_oilseeds_random;
 	FICR: CHAMELEONhopper_plantfibres_random;
+	WDCH: CHAMELEONhopper_plantfibres_random;
 	RUBR: CHAMELEONhopper_rubber_random;
 	SCMT: CHAMELEONhopper_scrapmetal_random;
 	SAND: CHAMELEONhopper_sand_random;
@@ -12840,6 +12843,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_SHIuniversal, cargo_type_in_veh){
 	IORE: 54;
 	OLSD: 54;
 	FICR: 54;
+	WDCH: 54;
 	RUBR: 54;
 	SCMT: 54;
 	SAND: 54;
@@ -12911,6 +12915,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_SHIP_UNIVERSAL, cargo_type_in_veh){
 	IORE: 40;
 	OLSD: 40;
 	FICR: 40;
+	WDCH: 40;
 	RUBR: 40;
 	SCMT: 40;
 	SAND: 40;
@@ -12993,6 +12998,7 @@ switch(FEAT_TRAINS, SELF, switch_loadspeed_SHIP_EARLY_UNIVERSAL, cargo_type_in_v
 	IORE: 20;
 	OLSD: 20;
 	FICR: 20;
+	WDCH: 20;
 	RUBR: 20;
 	SCMT: 20;
 	SAND: 20;
@@ -13060,6 +13066,7 @@ switch(FEAT_TRAINS, SELF, switch_loadspeed_SHIP_MODERN_UNIVERSAL, cargo_type_in_
 	IORE: 6;
 	OLSD: 6;
 	FICR: 6;
+	WDCH: 6;
 	RUBR: 6;
 	SCMT: 6;
 	SAND: 6;
@@ -22080,7 +22087,7 @@ item(FEAT_TRAINS, item_SHIflatbed, 751) { //ID751
         refittable_cargo_classes:     bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_REFRIGERATED, CC_OVERSIZED, CC_ARMOURED);
         non_refittable_cargo_classes: bitmask();
 
-		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, RCYC, WSTE, WOOL];
+		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL];
 		default_cargo_type:			  GOOD;
         loading_speed:                5;
         cost_factor:                  10;
@@ -22487,6 +22494,7 @@ switch (FEAT_TRAINS, SELF, SHIP_HOPPER_cargo_switch, cargo_type_in_veh) {
 	IORE: spritegroup_SHIP_HOPPER_ironore;
 	OLSD: spritegroup_SHIP_HOPPER_oilseeds;
 	FICR: spritegroup_SHIP_HOPPER_plantfibres;
+	WDCH: spritegroup_SHIP_HOPPER_plantfibres;
 	RUBR: spritegroup_SHIP_HOPPER_rubber;
 	SCMT: spritegroup_SHIP_HOPPER_scrapmetal;
 	SAND: spritegroup_SHIP_HOPPER_sand;
@@ -22850,6 +22858,7 @@ switch (FEAT_TRAINS, SELF, SHIP_SLUG_HOPPER_cargo_switch, cargo_type_in_veh) {
 	IORE: spritegroup_SHIP_SLUG_HOPPER_ironore;
 	OLSD: spritegroup_SHIP_SLUG_HOPPER_oilseeds;
 	FICR: spritegroup_SHIP_SLUG_HOPPER_plantfibres;
+	WDCH: spritegroup_SHIP_SLUG_HOPPER_plantfibres;
 	RUBR: spritegroup_SHIP_SLUG_HOPPER_rubber;
 	SCMT: spritegroup_SHIP_SLUG_HOPPER_scrapmetal;
 	SAND: spritegroup_SHIP_SLUG_HOPPER_sand;
@@ -23216,6 +23225,7 @@ switch (FEAT_TRAINS, SELF, SHIP_TRTL_HOPPER_cargo_switch, cargo_type_in_veh) {
 	IORE: spritegroup_SHIP_TRTL_HOPPER_ironore;
 	OLSD: spritegroup_SHIP_TRTL_HOPPER_oilseeds;
 	FICR: spritegroup_SHIP_TRTL_HOPPER_plantfibres;
+	WDCH: spritegroup_SHIP_TRTL_HOPPER_plantfibres;
 	RUBR: spritegroup_SHIP_TRTL_HOPPER_rubber;
 	SCMT: spritegroup_SHIP_TRTL_HOPPER_scrapmetal;
 	SAND: spritegroup_SHIP_TRTL_HOPPER_sand;
@@ -23916,6 +23926,7 @@ switch (FEAT_TRAINS, SELF, SHIhopper_wagon_switch, cargo_type_in_veh) {
 	IORE: spritegroup_SHIhopper_ironore;
 	OLSD: spritegroup_SHIhopper_oilseeds;
 	FICR: spritegroup_SHIhopper_plantfibres;
+	WDCH: spritegroup_SHIhopper_plantfibres;
 	RUBR: spritegroup_SHIhopper_rubber;
 	SCMT: spritegroup_SHIhopper_scrapmetal;
 	SAND: spritegroup_SHIhopper_sand;
@@ -24616,6 +24627,7 @@ switch (FEAT_TRAINS, SELF, SHIhopper_C4T_01wagon_switch, cargo_type_in_veh) {
 	IORE: spritegroup_SHIhopper_C4T_01ironore;
 	OLSD: spritegroup_SHIhopper_C4T_01oilseeds;
 	FICR: spritegroup_SHIhopper_C4T_01plantfibres;
+	WDCH: spritegroup_SHIhopper_C4T_01plantfibres;
 	RUBR: spritegroup_SHIhopper_C4T_01rubber;
 	SCMT: spritegroup_SHIhopper_C4T_01scrapmetal;
 	SAND: spritegroup_SHIhopper_C4T_01sand;
@@ -26849,6 +26861,7 @@ switch (FEAT_TRAINS, SELF, SHIP_UNIVERSAL_cargo_switch, cargo_type_in_veh) {
 	IORE: spritegroup_SHIP_HOPPER_ironore;
 	OLSD: spritegroup_SHIP_HOPPER_oilseeds;
 	FICR: spritegroup_SHIP_HOPPER_plantfibres;
+	WDCH: spritegroup_SHIP_HOPPER_plantfibres;
 	RUBR: spritegroup_SHIP_HOPPER_rubber;
 	SCMT: spritegroup_SHIP_HOPPER_scrapmetal;
 	SAND: spritegroup_SHIP_HOPPER_sand;
@@ -26934,6 +26947,7 @@ switch (FEAT_TRAINS, SELF, SHIP_TRTL_UNIVERSAL_cargo_switch, cargo_type_in_veh) 
 	IORE: spritegroup_SHIP_TRTL_HOPPER_ironore;
 	OLSD: spritegroup_SHIP_TRTL_HOPPER_oilseeds;
 	FICR: spritegroup_SHIP_TRTL_HOPPER_plantfibres;
+	WDCH: spritegroup_SHIP_TRTL_HOPPER_plantfibres;
 	RUBR: spritegroup_SHIP_TRTL_HOPPER_rubber;
 	SCMT: spritegroup_SHIP_TRTL_HOPPER_scrapmetal;
 	SAND: spritegroup_SHIP_TRTL_HOPPER_sand;
@@ -27021,6 +27035,7 @@ switch (FEAT_TRAINS, SELF, SHIP_SLUG_UNIVERSAL_cargo_switch, cargo_type_in_veh) 
 	IORE: spritegroup_SHIP_SLUG_HOPPER_ironore;
 	OLSD: spritegroup_SHIP_SLUG_HOPPER_oilseeds;
 	FICR: spritegroup_SHIP_SLUG_HOPPER_plantfibres;
+	WDCH: spritegroup_SHIP_SLUG_HOPPER_plantfibres;
 	RUBR: spritegroup_SHIP_SLUG_HOPPER_rubber;
 	SCMT: spritegroup_SHIP_SLUG_HOPPER_scrapmetal;
 	SAND: spritegroup_SHIP_SLUG_HOPPER_sand;
@@ -27118,6 +27133,7 @@ switch (FEAT_TRAINS, SELF, SHIuniversal_wagon_switch, cargo_type_in_veh) {
 	IORE: spritegroup_SHIhopper_ironore;
 	OLSD: spritegroup_SHIhopper_oilseeds;
 	FICR: spritegroup_SHIhopper_plantfibres;
+	WDCH: spritegroup_SHIhopper_plantfibres;
 	RUBR: spritegroup_SHIhopper_rubber;
 	SCMT: spritegroup_SHIhopper_scrapmetal;
 	SAND: spritegroup_SHIhopper_sand;
@@ -27203,6 +27219,7 @@ switch (FEAT_TRAINS, SELF, SHIuniversal_C4T_wagon_switch, cargo_type_in_veh) {
 	IORE: SHIhopper_C4T_wagon_switch;
 	OLSD: SHIhopper_C4T_wagon_switch;
 	FICR: SHIhopper_C4T_wagon_switch;
+	WDCH: SHIhopper_C4T_wagon_switch;
 	RUBR: SHIhopper_C4T_wagon_switch;
 	SCMT: SHIhopper_C4T_wagon_switch;
 	SAND: SHIhopper_C4T_wagon_switch;
@@ -28680,6 +28697,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_CABOOSE_1, cargo_type_in_veh){
 	IORE: 15;
 	OLSD: 15;
 	FICR: 15;
+	WDCH: 15;
 	RUBR: 15;
 	SCMT: 15;
 	SAND: 15;
@@ -28934,6 +28952,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_CABOOSE_2, cargo_type_in_veh){
 	IORE: 17;
 	OLSD: 17;
 	FICR: 17;
+	WDCH: 17;
 	RUBR: 17;
 	SCMT: 17;
 	SAND: 17;
@@ -35092,6 +35111,7 @@ switch (FEAT_TRAINS,SELF, switch_SHIP_cargo_capacity, cargo_type_in_veh){
 	IORE: 20;
 	OLSD: 20;
 	FICR: 20;
+	WDCH: 20;
 	RUBR: 20;
 	SCMT: 20;
 	SAND: 20;
@@ -35157,6 +35177,7 @@ switch (FEAT_TRAINS,SELF, switch_SHIP_loadspeed, cargo_type_in_veh){
 	IORE: 10;
 	OLSD: 10;
 	FICR: 10;
+	WDCH: 10;
 	RUBR: 10;
 	SCMT: 10;
 	SAND: 10;

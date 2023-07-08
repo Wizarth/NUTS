@@ -28,6 +28,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_railuniversal2, cargo_type_in_veh){
 	IORE: 35;
 	OLSD: 35;
 	FICR: 35;
+	WDCH: 35;
 	RUBR: 35;
 	SCMT: 35;
 	SAND: 35;
@@ -956,6 +957,7 @@ switch (FEAT_TRAINS, SELF, railhopper2_wagon_switch, cargo_type_in_veh) {
 	IORE: spritegroup_railhopper2_ironore;
 	OLSD: spritegroup_railhopper2_oilseeds;
 	FICR: spritegroup_railhopper2_plantfibres;
+	WDCH: spritegroup_railhopper2_plantfibres;
 	RUBR: spritegroup_railhopper2_rubber;
 	SCMT: spritegroup_railhopper2_scrapmetal;
 	SAND: spritegroup_railhopper2_sand;
@@ -1281,6 +1283,7 @@ switch (FEAT_TRAINS, SELF, railuniversal2_wagon_switch_x, cargo_type_in_veh) {
 	IORE: spritegroup_railhopper2_ironore;
 	OLSD: spritegroup_railhopper2_oilseeds;
 	FICR: spritegroup_railhopper2_plantfibres;
+	WDCH: spritegroup_railhopper2_plantfibres;
 	RUBR: spritegroup_railhopper2_rubber;
 	SCMT: spritegroup_railhopper2_scrapmetal;
 	SAND: spritegroup_railhopper2_sand;
@@ -1363,6 +1366,7 @@ switch (FEAT_TRAINS, SELF, railuniversal2_MEOW_wagon_switch, cargo_type_in_veh) 
 	IORE: spritegroup_railhopper2_ironore;
 	OLSD: spritegroup_railhopper2_oilseeds;
 	FICR: spritegroup_railhopper2_plantfibres;
+	WDCH: spritegroup_railhopper2_plantfibres;
 	RUBR: spritegroup_railhopper2_rubber;
 	SCMT: spritegroup_railhopper2_scrapmetal;
 	SAND: spritegroup_railhopper2_sand;
