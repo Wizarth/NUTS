@@ -190,6 +190,7 @@ switch (FEAT_TRAINS, SELF, monohopper_wagon_switch, cargo_type_in_veh) {
 	IORE: spritegroup_monohopper_ironore;
 	OLSD: spritegroup_monohopper_oilseeds;
 	FICR: spritegroup_monohopper_plantfibres;
+	WDCH: spritegroup_monohopper_plantfibres;
 	RUBR: spritegroup_monohopper_rubber;
 	SCMT: spritegroup_monohopper_scrapmetal;
 	SAND: spritegroup_monohopper_sand;
@@ -652,6 +653,7 @@ switch (FEAT_TRAINS, SELF, MEOW_hopper_cargo_switch, cargo_type_in_veh) {
 	IORE: random_MEOW_hopper_ironore;
 	OLSD: random_MEOW_hopper_oilseeds;
 	FICR: random_MEOW_hopper_plantfibres;
+	WDCH: random_MEOW_hopper_plantfibres;
 	RUBR: random_MEOW_hopper_rubber;
 	SCMT: random_MEOW_hopper_scrapmetal;
 	SAND: random_MEOW_hopper_sand;

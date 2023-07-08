@@ -374,6 +374,7 @@ switch (FEAT_TRAINS, SELF, monouniversal_wagon_switch, cargo_type_in_veh) {
 	ENSP: spritegroup_monoflatbed_cars; //will need change later
 	FERT: spritegroup_monohopper_fertiliser;
 	FICR: spritegroup_monohopper_plantfibres;
+	WDCH: spritegroup_monohopper_plantfibres;
 	FISH: spritegroup_monotanker_fish;
 	FMSP: spritegroup_monohopper_fertiliser;
 	FOOD: spritegroup_monoflatbed_food;
@@ -455,6 +456,7 @@ switch (FEAT_TRAINS, SELF, MEOW_universal_wagon_switch, cargo_type_in_veh) {
 	ENSP: random_MEOW_flatbed_ES; //will need change later
 	FERT: random_MEOW_hopper_fertilizer;
 	FICR: random_MEOW_hopper_plantfibres;
+	WDCH: random_MEOW_hopper_plantfibres;
 	FISH: random_MEOW_tanker_fish;
 	FMSP: random_MEOW_hopper_fertilizer;
 	FOOD: random_MEOW_flatbed_food;

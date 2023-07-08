@@ -28,6 +28,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_maglevuniversal_normal, cargo_type_in_
 	IORE: 11;
 	OLSD: 11;
 	FICR: 11;
+	WDCH: 11;
 	RUBR: 11;
 	SCMT: 11;
 	SAND: 11;
@@ -91,6 +92,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_maglevuniversal_SLUG, cargo_type_in_ve
 	IORE: 12;
 	OLSD: 12;
 	FICR: 12;
+	WDCH: 12;
 	RUBR: 12;
 	SCMT: 12;
 	SAND: 12;
@@ -150,7 +152,7 @@ item(FEAT_TRAINS, item_maglevflatbed, 611) { //ID611
         refittable_cargo_classes:     bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_REFRIGERATED, CC_OVERSIZED, CC_ARMOURED);
         non_refittable_cargo_classes: bitmask();
 
-		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, RCYC, WOOL];
+		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WOOL];
 		default_cargo_type:			  GOOD;
         loading_speed:                5;
         cost_factor:                  10;
