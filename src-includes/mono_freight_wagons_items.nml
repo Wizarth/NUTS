@@ -37,6 +37,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_monouniversal, cargo_type_in_veh){
 	SGCN: 30;
 	TOFF: 30;
 	WOOL: 30;
+	SCPR: 30;
 	RCYC: 30;
 	WSTE: 30;
 	BRCK: 30;
@@ -75,7 +76,7 @@ item(FEAT_TRAINS, item_monoflatbed, 511) { //ID511
         refittable_cargo_classes:     bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_REFRIGERATED, CC_OVERSIZED, CC_ARMOURED);
         non_refittable_cargo_classes: bitmask();
 
-		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL];
+		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL, SCPR];
 		default_cargo_type:			  GOOD;
         loading_speed:                5;
         cost_factor:                  10;

@@ -10516,6 +10516,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_CHAMELEONuniversal, cargo_type_in_veh)
 	SGCN: 14;
 	TOFF: 14;
 	WOOL: 14;
+	SCPR: 14;
 	RCYC: 14;
 	WSTE: 14;
 	BRCK: 14;
@@ -11257,7 +11258,7 @@ item(FEAT_TRAINS, item_CHAMELEONflatbed, 506) { //ID506
         refittable_cargo_classes:     bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_REFRIGERATED, CC_OVERSIZED, CC_ARMOURED);
         non_refittable_cargo_classes: bitmask();
 
-		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL];
+		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL, SCPR];
 		default_cargo_type:			  GOOD;
         loading_speed:                5;
         cost_factor:                  10;
@@ -12306,6 +12307,7 @@ switch (FEAT_TRAINS, SELF, CHAMELEONhopper_wagon_switch, cargo_type_in_veh) {
 	SGCN: CHAMELEONhopper_sugar_random;
 	TOFF: CHAMELEONhopper_toffee_random;
 	WOOL: CHAMELEONhopper_wool_random;
+	SCPR: CHAMELEONhopper_wool_random;
 	RCYC: CHAMELEONhopper_recyclables_random;
 	WSTE: CHAMELEONhopper_recyclables_random;
 	CHAMELEONhopper_coal_random;
@@ -12718,6 +12720,7 @@ switch (FEAT_TRAINS, SELF, CHAMELEONuniversal_wagon_switch, cargo_type_in_veh) {
 	SGCN: CHAMELEONhopper_sugar_random;
 	TOFF: CHAMELEONhopper_toffee_random;
 	WOOL: CHAMELEONhopper_wool_random;
+	SCPR: CHAMELEONhopper_wool_random;
 	RCYC: CHAMELEONhopper_recyclables_random;
 	WSTE: CHAMELEONhopper_recyclables_random;
 
@@ -12853,6 +12856,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_SHIuniversal, cargo_type_in_veh){
 	SGCN: 54;
 	TOFF: 54;
 	WOOL: 54;
+	SCPR: 54;
 	RCYC: 54;
 	WSTE: 54;
 	BRCK: 54;
@@ -12925,6 +12929,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_SHIP_UNIVERSAL, cargo_type_in_veh){
 	SGCN: 40;
 	TOFF: 40;
 	WOOL: 40;
+	SCPR: 40;
 	RCYC: 40;
 	WSTE: 40;
 	BRCK: 40;
@@ -13008,6 +13013,7 @@ switch(FEAT_TRAINS, SELF, switch_loadspeed_SHIP_EARLY_UNIVERSAL, cargo_type_in_v
 	SGCN: 20;
 	TOFF: 20;
 	WOOL: 20;
+	SCPR: 20;
 	RCYC: 20;
 	WSTE: 20;
 	BRCK: 20;
@@ -13076,6 +13082,7 @@ switch(FEAT_TRAINS, SELF, switch_loadspeed_SHIP_MODERN_UNIVERSAL, cargo_type_in_
 	SGCN: 6;
 	TOFF: 6;
 	WOOL: 6;
+	SCPR: 6;
 	RCYC: 6;
 	WSTE: 6;
 	BRCK: 6;
@@ -22087,7 +22094,7 @@ item(FEAT_TRAINS, item_SHIflatbed, 751) { //ID751
         refittable_cargo_classes:     bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_REFRIGERATED, CC_OVERSIZED, CC_ARMOURED);
         non_refittable_cargo_classes: bitmask();
 
-		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL];
+		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL, SCPR];
 		default_cargo_type:			  GOOD;
         loading_speed:                5;
         cost_factor:                  10;
@@ -22504,6 +22511,7 @@ switch (FEAT_TRAINS, SELF, SHIP_HOPPER_cargo_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_SHIP_HOPPER_sugar;
 	TOFF: spritegroup_SHIP_HOPPER_toffee;
 	WOOL: spritegroup_SHIP_HOPPER_wool;
+	SCPR: spritegroup_SHIP_HOPPER_wool;
 	RCYC: spritegroup_SHIP_HOPPER_recyclables;
 	WSTE: spritegroup_SHIP_HOPPER_recyclables;
 	spritegroup_SHIP_HOPPER_coal;
@@ -22868,6 +22876,7 @@ switch (FEAT_TRAINS, SELF, SHIP_SLUG_HOPPER_cargo_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_SHIP_SLUG_HOPPER_sugar;
 	TOFF: spritegroup_SHIP_SLUG_HOPPER_toffee;
 	WOOL: spritegroup_SHIP_SLUG_HOPPER_wool;
+	SCPR: spritegroup_SHIP_SLUG_HOPPER_wool;
 	RCYC: spritegroup_SHIP_SLUG_HOPPER_recyclables;
 	WSTE: spritegroup_SHIP_SLUG_HOPPER_recyclables;
 	spritegroup_SHIP_SLUG_HOPPER_coal;
@@ -23235,6 +23244,7 @@ switch (FEAT_TRAINS, SELF, SHIP_TRTL_HOPPER_cargo_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_SHIP_TRTL_HOPPER_sugar;
 	TOFF: spritegroup_SHIP_TRTL_HOPPER_toffee;
 	WOOL: spritegroup_SHIP_TRTL_HOPPER_wool;
+	SCPR: spritegroup_SHIP_TRTL_HOPPER_wool;
 	RCYC: spritegroup_SHIP_TRTL_HOPPER_recyclables;
 	WSTE: spritegroup_SHIP_TRTL_HOPPER_recyclables;
 	spritegroup_SHIP_TRTL_HOPPER_coal;
@@ -23936,6 +23946,7 @@ switch (FEAT_TRAINS, SELF, SHIhopper_wagon_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_SHIhopper_sugar;
 	TOFF: spritegroup_SHIhopper_toffee;
 	WOOL: spritegroup_SHIhopper_wool;
+	SCPR: spritegroup_SHIhopper_wool;
 	RCYC: spritegroup_SHIhopper_recyclables;
 	WSTE: spritegroup_SHIhopper_recyclables;
 	spritegroup_SHIhopper_coal;
@@ -24637,6 +24648,7 @@ switch (FEAT_TRAINS, SELF, SHIhopper_C4T_01wagon_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_SHIhopper_C4T_01sugar;
 	TOFF: spritegroup_SHIhopper_C4T_01toffee;
 	WOOL: spritegroup_SHIhopper_C4T_01wool;
+	SCPR: spritegroup_SHIhopper_C4T_01wool;
 	RCYC: spritegroup_SHIhopper_C4T_01recyclables;
 	WSTE: spritegroup_SHIhopper_C4T_01recyclables;
 	spritegroup_SHIhopper_C4T_01coal;
@@ -26871,6 +26883,7 @@ switch (FEAT_TRAINS, SELF, SHIP_UNIVERSAL_cargo_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_SHIP_HOPPER_sugar;
 	TOFF: spritegroup_SHIP_HOPPER_toffee;
 	WOOL: spritegroup_SHIP_HOPPER_wool;
+	SCPR: spritegroup_SHIP_HOPPER_wool;
 	RCYC: spritegroup_SHIP_HOPPER_recyclables;
 	WSTE: spritegroup_SHIP_HOPPER_recyclables;
 
@@ -26957,6 +26970,7 @@ switch (FEAT_TRAINS, SELF, SHIP_TRTL_UNIVERSAL_cargo_switch, cargo_type_in_veh) 
 	SGCN: spritegroup_SHIP_TRTL_HOPPER_sugar;
 	TOFF: spritegroup_SHIP_TRTL_HOPPER_toffee;
 	WOOL: spritegroup_SHIP_TRTL_HOPPER_wool;
+	SCPR: spritegroup_SHIP_TRTL_HOPPER_wool;
 	RCYC: spritegroup_SHIP_TRTL_HOPPER_recyclables;
 	WSTE: spritegroup_SHIP_TRTL_HOPPER_recyclables;
 
@@ -27045,6 +27059,7 @@ switch (FEAT_TRAINS, SELF, SHIP_SLUG_UNIVERSAL_cargo_switch, cargo_type_in_veh) 
 	SGCN: spritegroup_SHIP_SLUG_HOPPER_sugar;
 	TOFF: spritegroup_SHIP_SLUG_HOPPER_toffee;
 	WOOL: spritegroup_SHIP_SLUG_HOPPER_wool;
+	SCPR: spritegroup_SHIP_SLUG_HOPPER_wool;
 	RCYC: spritegroup_SHIP_SLUG_HOPPER_recyclables;
 	WSTE: spritegroup_SHIP_SLUG_HOPPER_recyclables;
 
@@ -27143,6 +27158,7 @@ switch (FEAT_TRAINS, SELF, SHIuniversal_wagon_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_SHIhopper_sugar;
 	TOFF: spritegroup_SHIhopper_toffee;
 	WOOL: spritegroup_SHIhopper_wool;
+	SCPR: spritegroup_SHIhopper_wool;
 	RCYC: spritegroup_SHIhopper_recyclables;
 	WSTE: spritegroup_SHIhopper_recyclables;
 
@@ -27229,6 +27245,7 @@ switch (FEAT_TRAINS, SELF, SHIuniversal_C4T_wagon_switch, cargo_type_in_veh) {
 	SGCN: SHIhopper_C4T_wagon_switch;
 	TOFF: SHIhopper_C4T_wagon_switch;
 	WOOL: SHIhopper_C4T_wagon_switch;
+	SCPR: SHIhopper_C4T_wagon_switch;
 	RCYC: SHIhopper_C4T_wagon_switch;
 	WSTE: SHIhopper_C4T_wagon_switch;
 
@@ -28707,6 +28724,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_CABOOSE_1, cargo_type_in_veh){
 	SGCN: 15;
 	TOFF: 15;
 	WOOL: 15;
+	SCPR: 15;
 	RCYC: 15;
 	WSTE: 15;
 	BRCK: 15;
@@ -28962,6 +28980,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_CABOOSE_2, cargo_type_in_veh){
 	SGCN: 17;
 	TOFF: 17;
 	WOOL: 17;
+	SCPR: 17;
 	RCYC: 17;
 	WSTE: 17;
 	BRCK: 17;
@@ -35121,6 +35140,7 @@ switch (FEAT_TRAINS,SELF, switch_SHIP_cargo_capacity, cargo_type_in_veh){
 	SGCN: 20;
 	TOFF: 20;
 	WOOL: 20;
+	SCPR: 20;
 	RCYC: 20;
 	WSTE: 20;
 	BRCK: 20;
@@ -35187,6 +35207,7 @@ switch (FEAT_TRAINS,SELF, switch_SHIP_loadspeed, cargo_type_in_veh){
 	SGCN: 10;
 	TOFF: 10;
 	WOOL: 10;
+	SCPR: 10;
 	RCYC: 10;
 	WSTE: 10;
 	BRCK: 10;

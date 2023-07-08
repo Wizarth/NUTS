@@ -418,6 +418,7 @@ switch (FEAT_TRAINS, SELF, monouniversal_wagon_switch, cargo_type_in_veh) {
 	WHEA: spritegroup_monohopper_grain;
 	WOOD: spritegroup_monoflatbed_wood;
 	WOOL: spritegroup_monohopper_wool;
+	SCPR: spritegroup_monohopper_wool;
 	VALU: spritegroup_monoflatbed_valu;
 	DIAM: spritegroup_monoflatbed_diam;
 	GOLD: spritegroup_monoflatbed_gold;
@@ -500,6 +501,7 @@ switch (FEAT_TRAINS, SELF, MEOW_universal_wagon_switch, cargo_type_in_veh) {
 	WHEA: random_MEOW_hopper_grain;
 	WOOD: random_MEOW_flatbed_wood;
 	WOOL: random_MEOW_hopper_wool;
+	SCPR: random_MEOW_hopper_wool;
 	VALU: random_MEOW_flatbed_valu;
 	DIAM: random_MEOW_flatbed_diam;
 	GOLD: random_MEOW_flatbed_gold;

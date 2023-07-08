@@ -14,7 +14,7 @@ item(FEAT_TRAINS, item_railflatbed2, 413) { //ID413
 		refittable_cargo_classes:     bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_REFRIGERATED, CC_OVERSIZED, CC_ARMOURED);
         non_refittable_cargo_classes: bitmask();
 
-		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL];
+		cargo_disallow_refit:		  [BEER, FMSP, FERT, FISH, MILK, FICR, WDCH, RCYC, WSTE, WOOL, SCPR];
 		default_cargo_type:			  GOOD;
 		loading_speed:                5;
         cost_factor:                  50;
