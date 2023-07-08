@@ -38,6 +38,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_maglevuniversal_normal, cargo_type_in_
 	TOFF: 11;
 	WOOL: 11;
 	RCYC: 11;
+	WSTE: 11;
 	BRCK: 11;
 	BDMT: 11;
 	BATT: 11;
@@ -100,6 +101,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_maglevuniversal_SLUG, cargo_type_in_ve
 	TOFF: 12;
 	WOOL: 12;
 	RCYC: 12;
+	WSTE: 12;
 	BRCK: 12;
 	BDMT: 12;
 	BATT: 12;

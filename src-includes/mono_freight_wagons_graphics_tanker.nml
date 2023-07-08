@@ -399,6 +399,7 @@ switch (FEAT_TRAINS, SELF, monouniversal_wagon_switch, cargo_type_in_veh) {
 	PLST: spritegroup_monotanker_plastic;
 	POTA: spritegroup_monohopper_clay;
 	RCYC: spritegroup_monohopper_recyclables;
+	WSTE: spritegroup_monohopper_recyclables;
 	RFPR: spritegroup_monotanker_chemicals;
 	RUBR: spritegroup_monohopper_rubber;
 	SAND: spritegroup_monohopper_sand;
@@ -479,6 +480,7 @@ switch (FEAT_TRAINS, SELF, MEOW_universal_wagon_switch, cargo_type_in_veh) {
 	PLST: random_MEOW_tanker_plastic;
 	POTA: random_MEOW_hopper_clay;
 	RCYC: random_MEOW_hopper_recyclables;
+	WSTE: random_MEOW_hopper_recyclables;
 	RFPR: random_MEOW_tanker_chemicals;
 	RUBR: random_MEOW_hopper_rubber;
 	SAND: random_MEOW_hopper_sand;

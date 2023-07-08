@@ -38,6 +38,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_railuniversal2, cargo_type_in_veh){
 	TOFF: 35;
 	WOOL: 35;
 	RCYC: 35;
+	WSTE: 35;
 	BRCK: 35;
 	BDMT: 35;
 	BATT: 35;
@@ -965,6 +966,7 @@ switch (FEAT_TRAINS, SELF, railhopper2_wagon_switch, cargo_type_in_veh) {
 	TOFF: spritegroup_railhopper2_toffee;
 	WOOL: spritegroup_railhopper2_wool;
 	RCYC: spritegroup_railhopper2_recyclables;
+	WSTE: spritegroup_railhopper2_recyclables;
 	spritegroup_railhopper2_coal;
 }
 
@@ -1289,6 +1291,7 @@ switch (FEAT_TRAINS, SELF, railuniversal2_wagon_switch_x, cargo_type_in_veh) {
 	TOFF: spritegroup_railhopper2_toffee;
 	WOOL: spritegroup_railhopper2_wool;
 	RCYC: spritegroup_railhopper2_recyclables;
+	WSTE: spritegroup_railhopper2_recyclables;
 	BRCK: spritegroup_railflatbed2_bricks;
 	BDMT: spritegroup_railflatbed2_bricks;
 	BATT: spritegroup_railflatbed2_batteries;
@@ -1370,6 +1373,7 @@ switch (FEAT_TRAINS, SELF, railuniversal2_MEOW_wagon_switch, cargo_type_in_veh) 
 	TOFF: spritegroup_railhopper2_toffee;
 	WOOL: spritegroup_railhopper2_wool;
 	RCYC: spritegroup_railhopper2_recyclables;
+	WSTE: spritegroup_railhopper2_recyclables;
 	BRCK: spritegroup_railflatbed2_bricks;
 	BDMT: spritegroup_railflatbed2_bricks;
 	BATT: spritegroup_railflatbed2_batteries;

@@ -1708,6 +1708,7 @@ switch (FEAT_TRAINS, SELF, maglevhopper_wagon_switch, cargo_type_in_veh) {
 	TOFF: spritegroup_maglevhopper_toffee;
 	WOOL: spritegroup_maglevhopper_wool;
 	RCYC: spritegroup_maglevhopper_recyclables;
+	WSTE: spritegroup_maglevhopper_recyclables;
 	spritegroup_maglevhopper_coal;
 }
 
@@ -2297,6 +2298,7 @@ switch (FEAT_TRAINS, SELF, SLUGhopper_wagon_switch, cargo_type_in_veh) {
 	TOFF: spritegroup_SLUGhopper_toffee;
 	WOOL: spritegroup_SLUGhopper_wool;
 	RCYC: spritegroup_SLUGhopper_recyclables;
+	WSTE: spritegroup_SLUGhopper_recyclables;
 	spritegroup_SLUGhopper_coal;
 }
 
@@ -2845,6 +2847,7 @@ switch (FEAT_TRAINS, SELF, maglevuniversal_wagon_switch, cargo_type_in_veh) {
 	PLST: spritegroup_maglevtanker_plasticprimary;
 	POTA: spritegroup_maglevhopper_clay;
 	RCYC: spritegroup_maglevhopper_recyclables;
+	WSTE: spritegroup_maglevhopper_recyclables;
 	RFPR: spritegroup_maglevtanker_chemicals;
 	RUBR: spritegroup_maglevhopper_rubber;
 	SAND: spritegroup_maglevhopper_sand;
@@ -2926,6 +2929,7 @@ switch (FEAT_TRAINS, SELF, SLUGuniversal_wagon_switch, cargo_type_in_veh) {
 	PLST: spritegroup_SLUGtanker_plasticprimary;
 	POTA: spritegroup_SLUGhopper_clay;
 	RCYC: spritegroup_SLUGhopper_recyclables;
+	WSTE: spritegroup_SLUGhopper_recyclables;
 	RFPR: spritegroup_SLUGtanker_chemicals;
 	RUBR: spritegroup_SLUGhopper_rubber;
 	SAND: spritegroup_SLUGhopper_sand;
