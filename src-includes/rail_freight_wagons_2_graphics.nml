@@ -38,6 +38,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_railuniversal3, cargo_type_in_veh){
 	SGCN: 30;
 	TOFF: 30;
 	WOOL: 30;
+	SCPR: 30;
 	RCYC: 30;
 	WSTE: 30;
 	BRCK: 30;
@@ -1312,6 +1313,7 @@ switch (FEAT_TRAINS, SELF, railhopper3_wagon_switch, cargo_type_in_veh) {
 	SGCN: railhopper3_random_sugar;
 	TOFF: railhopper3_random_toffee;
 	WOOL: railhopper3_random_wool;
+	SCPR: railhopper3_random_wool;
 	RCYC: railhopper3_random_recyclables;
 	WSTE: railhopper3_random_recyclables;
 	railhopper3_random_coal;
@@ -1487,6 +1489,7 @@ switch (FEAT_TRAINS, SELF, railuniversal3_wagon_switch_3, cargo_type_in_veh) {
 	SGCN: railhopper3_wagon_switch;
 	TOFF: railhopper3_wagon_switch;
 	WOOL: railhopper3_wagon_switch;
+	SCPR: railhopper3_wagon_switch;
 	RCYC: railhopper3_wagon_switch;
 	WSTE: railhopper3_wagon_switch;
 	BRCK: spritegroup_railflatbed3_bricks;

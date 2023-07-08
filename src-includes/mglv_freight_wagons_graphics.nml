@@ -1708,6 +1708,7 @@ switch (FEAT_TRAINS, SELF, maglevhopper_wagon_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_maglevhopper_sugar;
 	TOFF: spritegroup_maglevhopper_toffee;
 	WOOL: spritegroup_maglevhopper_wool;
+	SCPR: spritegroup_maglevhopper_wool;
 	RCYC: spritegroup_maglevhopper_recyclables;
 	WSTE: spritegroup_maglevhopper_recyclables;
 	spritegroup_maglevhopper_coal;
@@ -2299,6 +2300,7 @@ switch (FEAT_TRAINS, SELF, SLUGhopper_wagon_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_SLUGhopper_sugar;
 	TOFF: spritegroup_SLUGhopper_toffee;
 	WOOL: spritegroup_SLUGhopper_wool;
+	SCPR: spritegroup_SLUGhopper_wool;
 	RCYC: spritegroup_SLUGhopper_recyclables;
 	WSTE: spritegroup_SLUGhopper_recyclables;
 	spritegroup_SLUGhopper_coal;
@@ -2868,6 +2870,7 @@ switch (FEAT_TRAINS, SELF, maglevuniversal_wagon_switch, cargo_type_in_veh) {
 	WHEA: spritegroup_maglevhopper_grain;
 	WOOD: spritegroup_maglevflatbed_wood;
 	WOOL: spritegroup_maglevhopper_wool;
+	SCPR: spritegroup_maglevhopper_wool;
 	VALU: spritegroup_maglevflatbed_valu;
 	DIAM: spritegroup_maglevflatbed_diam;
 	GOLD: spritegroup_maglevflatbed_gold;
@@ -2951,6 +2954,7 @@ switch (FEAT_TRAINS, SELF, SLUGuniversal_wagon_switch, cargo_type_in_veh) {
 	WHEA: spritegroup_SLUGhopper_grain;
 	WOOD: spritegroup_SLUGflatbed_wood;
 	WOOL: spritegroup_SLUGhopper_wool;
+	SCPR: spritegroup_SLUGhopper_wool;
 	VALU: spritegroup_SLUGflatbed_valu;
 	DIAM: spritegroup_SLUGflatbed_diam;
 	GOLD: spritegroup_SLUGflatbed_gold;

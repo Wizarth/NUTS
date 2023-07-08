@@ -38,6 +38,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_railuniversal2, cargo_type_in_veh){
 	SGCN: 35;
 	TOFF: 35;
 	WOOL: 35;
+	SCPR: 35;
 	RCYC: 35;
 	WSTE: 35;
 	BRCK: 35;
@@ -967,6 +968,7 @@ switch (FEAT_TRAINS, SELF, railhopper2_wagon_switch, cargo_type_in_veh) {
 	SGCN: spritegroup_railhopper2_sugar;
 	TOFF: spritegroup_railhopper2_toffee;
 	WOOL: spritegroup_railhopper2_wool;
+	SCPR: spritegroup_railhopper2_wool;
 	RCYC: spritegroup_railhopper2_recyclables;
 	WSTE: spritegroup_railhopper2_recyclables;
 	spritegroup_railhopper2_coal;
@@ -1293,6 +1295,7 @@ switch (FEAT_TRAINS, SELF, railuniversal2_wagon_switch_x, cargo_type_in_veh) {
 	SGCN: spritegroup_railhopper2_sugar;
 	TOFF: spritegroup_railhopper2_toffee;
 	WOOL: spritegroup_railhopper2_wool;
+	SCPR: spritegroup_railhopper2_wool;
 	RCYC: spritegroup_railhopper2_recyclables;
 	WSTE: spritegroup_railhopper2_recyclables;
 	BRCK: spritegroup_railflatbed2_bricks;
@@ -1376,6 +1379,7 @@ switch (FEAT_TRAINS, SELF, railuniversal2_MEOW_wagon_switch, cargo_type_in_veh) 
 	SGCN: spritegroup_railhopper2_sugar;
 	TOFF: spritegroup_railhopper2_toffee;
 	WOOL: spritegroup_railhopper2_wool;
+	SCPR: spritegroup_railhopper2_wool;
 	RCYC: spritegroup_railhopper2_recyclables;
 	WSTE: spritegroup_railhopper2_recyclables;
 	BRCK: spritegroup_railflatbed2_bricks;
