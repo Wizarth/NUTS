@@ -200,6 +200,7 @@ switch (FEAT_TRAINS, SELF, monohopper_wagon_switch, cargo_type_in_veh) {
 	TOFF: spritegroup_monohopper_toffee;
 	WOOL: spritegroup_monohopper_wool;
 	RCYC: spritegroup_monohopper_recyclables;
+	WSTE: spritegroup_monohopper_recyclables;
 	spritegroup_monohopper_coal;
 }
 //ITEM
@@ -661,6 +662,7 @@ switch (FEAT_TRAINS, SELF, MEOW_hopper_cargo_switch, cargo_type_in_veh) {
 	TOFF: random_MEOW_hopper_toffee;
 	WOOL: random_MEOW_hopper_wool;
 	RCYC: random_MEOW_hopper_recyclables;
+	WSTE: random_MEOW_hopper_recyclables;
 	random_MEOW_hopper_coal;
 }
 

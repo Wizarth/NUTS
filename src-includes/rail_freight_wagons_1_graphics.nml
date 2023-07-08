@@ -39,6 +39,7 @@ switch(FEAT_TRAINS, SELF, switch_capacity_railuniversal1, cargo_type_in_veh){
 	TOFF: 12;
 	WOOL: 12;
 	RCYC: 12;
+	WSTE: 12;
 	BRCK: 12;
 	BDMT: 12;
 	BATT: 12;
@@ -1414,6 +1415,7 @@ switch (FEAT_TRAINS, SELF, railhopper1_wagon_switch, cargo_type_in_veh) {
 	TOFF: railhopper1_random_toffee;
 	WOOL: railhopper1_random_wool;
 	RCYC: railhopper1_random_recyclables;
+	WSTE: railhopper1_random_recyclables;
 	railhopper1_random_coal;
 }
 
@@ -1630,6 +1632,7 @@ switch (FEAT_TRAINS, SELF, railuniversal1_wagon_switch_3, cargo_type_in_veh) {
 	TOFF: railhopper1_wagon_switch;
 	WOOL: railhopper1_wagon_switch;
 	RCYC: railhopper1_wagon_switch;
+	WSTE: railhopper1_wagon_switch;
 	BRCK: railflatbed1_wagon_switch;
 	BDMT: railflatbed1_wagon_switch;
 	BATT: railflatbed1_wagon_switch;
