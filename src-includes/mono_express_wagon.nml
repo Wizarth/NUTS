@@ -949,7 +949,7 @@ item(FEAT_TRAINS, item_railpax, 451) { //ID451
         running_cost_factor:          0;
         sprite_id:                    SPRITE_ID_NEW_TRAIN;
         speed:                        0;
-        misc_flags:                   bitmask(TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_MU);
+        misc_flags:                   bitmask(TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
         refit_cost:                   0;
         track_type:                   RAIL;
 		curve_speed_mod:              32;
@@ -1132,7 +1132,7 @@ item(FEAT_TRAINS, item_monopax, 551) { //ID551
         running_cost_factor:          0;
         sprite_id:                    SPRITE_ID_NEW_TRAIN;
         speed:                        0;
-        misc_flags:                   bitmask(TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_MU);
+        misc_flags:                   bitmask(TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
         refit_cost:                   0;
         track_type:                   MONO;
 		curve_speed_mod:              32;

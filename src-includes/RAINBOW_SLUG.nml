@@ -449,7 +449,7 @@ item(FEAT_TRAINS, item_RAINBOWSLUG, 323) { //ID323
         running_cost_factor:          100;
         sprite_id:                    SPRITE_ID_NEW_TRAIN;
         speed:                        350 km/h;
-        misc_flags:                   bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_MU, TRAIN_FLAG_2CC);
+        misc_flags:                   bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_MU, TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
         refit_cost:                   0;
         track_type:                   MGLV;
 		curve_speed_mod:              1;

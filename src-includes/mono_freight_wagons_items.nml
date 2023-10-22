@@ -83,7 +83,7 @@ item(FEAT_TRAINS, item_monoflatbed, 511) { //ID511
         running_cost_factor:          0;
         sprite_id:                    SPRITE_ID_NEW_TRAIN;
         speed:                        0;
-        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC);
+        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
         refit_cost:                   0;
         track_type:                   MONO;
 		curve_speed_mod:              32;
@@ -147,7 +147,7 @@ item(FEAT_TRAINS, item_monohopper, 521) { //ID521
         running_cost_factor:          0;
         sprite_id:                    SPRITE_ID_NEW_TRAIN;
         speed:                        0;
-        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC);
+        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
         refit_cost:                   0;
         track_type:                   MONO;
 		curve_speed_mod:              32;
@@ -215,7 +215,7 @@ item(FEAT_TRAINS, item_monotanker, 531) { //ID531
         running_cost_factor:          0;
         sprite_id:                    SPRITE_ID_NEW_TRAIN;
         speed:                        0;
-        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC);
+        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
         refit_cost:                   0;
         track_type:                   MONO;
 		curve_speed_mod:              32;
@@ -287,7 +287,7 @@ item(FEAT_TRAINS, item_monouniversal, 541) { //ID541
         running_cost_factor:          0;
         sprite_id:                    SPRITE_ID_NEW_TRAIN;
         speed:                        0;
-        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC);
+        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_TILT, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
         refit_cost:                   0;
         track_type:                   MONO;
 		curve_speed_mod:              32;

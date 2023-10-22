@@ -103,7 +103,7 @@ item(FEAT_TRAINS, item_rail_EARLY_01, 7) { //ID7
         running_cost_factor:          100;
         sprite_id:                    SPRITE_ID_NEW_TRAIN;
         speed:                        90 km/h; // actually 140, but there are rounding errors
-        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC);
+        misc_flags:                   bitmask(TRAIN_FLAG_SPRITE_STACK, TRAIN_FLAG_FLIP, TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
         refit_cost:                   0;
         track_type:                   RAIL;
 		curve_speed_mod:              0;
